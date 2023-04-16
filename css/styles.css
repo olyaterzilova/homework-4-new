@@ -116,7 +116,6 @@ button {
 .page-header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header {
@@ -269,7 +268,7 @@ hero-section-container {
 
 /* ==========/hero====================== */
 /* ==============second-section========== */
-.main-section-item {
+.main-section-item-2 {
   width: calc((100% - 48px) / 3);
 }
 .icons-section-two {
@@ -429,7 +428,9 @@ hero-section-container {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+}
+.footer-left-side {
+  margin-right: 120px;
 }
 .footer-text {
   font-weight: 500;

@@ -429,6 +429,7 @@ hero-section-container {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
 .footer-text {
   font-weight: 500;
@@ -442,9 +443,7 @@ hero-section-container {
   display: flex;
   gap: 16px;
 }
-.footer-left-side {
-  margin-right: 120px;
-}
+
 .footer-section-item {
 }
 .five-section-icon {
@@ -474,11 +473,11 @@ hero-section-container {
 }
 .portfolio-link:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16) 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16) 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-section-list {
   display: flex;

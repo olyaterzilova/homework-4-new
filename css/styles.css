@@ -401,11 +401,12 @@ hero-section-container {
   color: var(--five-section-icon);
 }
 .five-section-item:hover {
-  color: #404bbf;
-  border-color: #404bbf;
+  color: var(--background-button);
+  border-color: var(--background-button);
 }
 .five-section-item:focus {
-  color: #404bbf;
+  color: var(--background-button);
+  border-color: var(--background-button);
 }
 .five-section-icons {
   fill: currentColor;

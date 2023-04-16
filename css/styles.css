@@ -428,8 +428,9 @@ hero-section-container {
 .footer-container {
   display: flex;
   align-items: baseline;
+  gap: 120px;
 }
-.footer-left-side {
+.footer-right-side {
   margin-right: 120px;
 }
 .footer-text {
@@ -437,7 +438,7 @@ hero-section-container {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--html-button-color);
   margin-bottom: 16px;
 }
 .fotter-section-list {
@@ -450,7 +451,7 @@ hero-section-container {
 .five-section-icon {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--primary-button);
   border-radius: 50%;
   display: flex;
   align-items: center;
